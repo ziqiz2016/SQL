@@ -20,3 +20,5 @@ INSERT INTO table_name(column1, colum2,..., columnN)
 VALUES(value1, value2,..., valueN);
 # use datebase
 USE database_name;
+# clear all rows of the table
+TRUNCATE table_name;
