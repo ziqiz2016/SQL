@@ -22,3 +22,10 @@ VALUES(value1, value2,..., valueN);
 USE database_name;
 # clear all rows of the table
 TRUNCATE table_name;
+# delete row in table
+DELETE [LOW_PRIORITY] [QUICK] [IGNORE] FROM tbl_name
+
+    [PARTITION (partition_name,...)]
+    [WHERE where_condition]
+    [ORDER BY ...]
+    [LIMIT row_count]
